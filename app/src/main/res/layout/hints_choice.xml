@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@color/background_color"
     android:gravity="center"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tvsharehints"
@@ -57,16 +57,41 @@
         android:textColor="@color/textColor"
         android:textSize="@dimen/content_text_size" />
 
-    <Button
-        android:id="@+id/bvideoHints"
-        android:layout_width="@dimen/pack_width"
-        android:layout_height="@dimen/pack_height"
-        android:layout_margin="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/custom_rounrect_flow3"
-        android:text="@string/video_hints"
-        android:textColor="@color/textColor"
-        android:textSize="@dimen/heading_text_size"
-        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bvideoHints"
+            android:layout_width="@dimen/pack_width"
+            android:layout_height="@dimen/pack_height"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_rounrect_flow3"
+            android:text="@string/video_hints"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/heading_text_size"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="@dimen/pack_height"
+            android:layout_height="@dimen/pack_height"
+            android:layout_alignTop="@+id/bvideoHints"
+            android:layout_alignEnd="@+id/bvideoHints"
+            android:layout_alignBottom="@+id/bvideoHints"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/text_hints"
+            android:layout_width="@dimen/pack_height"
+            android:layout_height="@dimen/pack_height"
+            android:layout_alignTop="@+id/bvideoHints"
+            android:layout_alignEnd="@+id/bvideoHints"
+            android:layout_alignBottom="@+id/bvideoHints"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"/>
+    </RelativeLayout>
 
 </LinearLayout>

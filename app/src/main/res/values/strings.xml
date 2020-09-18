@@ -9,15 +9,17 @@
     <string name="no_thanks">No </string>
 
     <!-- values for admob -->
-    <string name="banner_id">ca-app-pub-5354131755778514/4228202872</string>
-    <string name="interstitial_id">ca-app-pub-5354131755778514/5704936076</string>
+    <string name="app_ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
 
     <!-- values for tapjoy free hints -->
-    <string name="tap_appId">349fc50b-f810-4bd1-b1d6-97087e315d09</string>
-    <string name="tap_appKey">Llnq1xe98O4xCdyCzFRG</string>
-    <string name="tap_hintId">349fc50b-f810-4bd1-b1d6-97087e315d09</string>
+    <string name="tap_appId">s349fc50b-f810-4bd1-b1d6-97087e315d09</string>
+    <string name="tap_appKey">sLlnq1xe98O4xCdyCzFRG</string>
+    <string name="tap_hintId">s349fc50b-f810-4bd1-b1d6-97087e315d09</string>
 
-    <!-- values for vungle -->
+<!--    &lt;!&ndash; values for vungle &ndash;&gt;-->
     <string name="appId">creativedroidsapp001</string>
 
     <!-- string values for app -->
@@ -74,5 +76,15 @@
     <string name="movesLabel">Moves :</string>
     <string name="hintsLabel">Hints :</string>
     <string name="bestLabel">Best :</string>
+
+    <string name="hints_added">Hints added</string>
+    <string name="please_watch_video_to_get_hints">Watch Complete video to add hints</string>
+    <string name="you_cannot_play_rewarded">You cannot play any ad now. Try after sometime</string>
+    <string name="hints">hints</string>
+    <string name="rewarded_ad_wasnt_loaded_yet">The rewarded ad wasn\'t loaded yet.</string>
+    <string name="interstitial_wasnt_loaded_yet">The interstitial wasn\'t loaded yet.</string>
+    <string name="click_to_ad_receive_hints">Please click on the ad to receive 5 hints</string>
+    <string name="thanks_for_sharing">Thanks for sharing.</string>
+    <string name="try_sharing_tomorrow">Thanks for sharing.But only 1 share is allowed per day to get hints. Try sharing tomorrow</string>
 
 </resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888100602630",
+    "firebase_url": "https://link-78c94.firebaseio.com",
+    "project_id": "link-78c94",
+    "storage_bucket": "link-78c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888100602630:android:102db4f09db762fb61d487",
+        "android_client_info": {
+          "package_name": "com.mountains.link"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888100602630-h4jr1rgpm1hvovam3v07hdegr9h5k7oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjKi3zTemylQPVJaM-hi867XkibhFCA7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888100602630-h4jr1rgpm1hvovam3v07hdegr9h5k7oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
