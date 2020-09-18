@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        applicationId "com.creativedroids.link"
+        minSdkVersion 21
+        targetSdkVersion 30
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:support-v4:23.4.0'
+    //noinspection UseOfBundledGooglePlayServices
+    implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation files('libs/dagger-1.2.2.jar')
+    implementation files('libs/javax.inject-1.jar')
+    implementation files('libs/nineoldandroids-2.4.0.jar')
+    implementation files('libs/tapjoyconnectlibrary.jar')
+    implementation files('libs/tween-engine-api-sources.jar')
+    implementation files('libs/tween-engine-api.jar')
+    implementation files('libs/vungle-publisher-adaptive-id-3.3.2.jar')
+}
