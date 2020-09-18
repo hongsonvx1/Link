@@ -22,14 +22,11 @@ android {
 dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:support-v4:23.4.0'
-//    implementation 'com.google.android.gms:play-services:12.0.1'
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
     implementation files('libs/dagger-1.2.2.jar')
     implementation files('libs/javax.inject-1.jar')
     implementation files('libs/nineoldandroids-2.4.0.jar')
-    implementation files('libs/tapjoyconnectlibrary.jar')
     implementation files('libs/tween-engine-api-sources.jar')
     implementation files('libs/tween-engine-api.jar')
-    implementation files('libs/vungle-publisher-adaptive-id-3.3.2.jar')
     implementation 'com.google.firebase:firebase-ads:19.4.0'
 }

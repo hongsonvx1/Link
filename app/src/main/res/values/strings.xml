@@ -8,19 +8,18 @@
     <string name="later">Later</string>
     <string name="no_thanks">No </string>
 
-    <!-- values for admob -->
-    <string name="app_ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="rewarded_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <!-- values for admob test-->
+<!--    <string name="app_ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="rewarded_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
 
-    <!-- values for tapjoy free hints -->
-    <string name="tap_appId">s349fc50b-f810-4bd1-b1d6-97087e315d09</string>
-    <string name="tap_appKey">sLlnq1xe98O4xCdyCzFRG</string>
-    <string name="tap_hintId">s349fc50b-f810-4bd1-b1d6-97087e315d09</string>
+    <!-- real values for admob -->
+    <string name="app_ad_id" translatable="false">ca-app-pub-6074605938883973~7341359895</string>
+    <string name="banner_id" translatable="false">ca-app-pub-6074605938883973/1426510627</string>
+    <string name="interstitial_id" translatable="false">ca-app-pub-6074605938883973/7800347284</string>
+    <string name="rewarded_id" translatable="false">ca-app-pub-6074605938883973/5174183944</string>
 
-<!--    &lt;!&ndash; values for vungle &ndash;&gt;-->
-    <string name="appId">creativedroidsapp001</string>
 
     <!-- string values for app -->
     <string name="shareSubject">Check this out</string>
@@ -45,7 +44,7 @@
     <string name="tags">Change Tags</string>
     <string name="share_hints">Share Hints</string>
     <string name="video_hints">Video Hints</string>
-    <string name="free_hints">Free Hints</string>
+    <string name="click_ad_hints">Click Ad Hints</string>
     <string name="getHints">Get Hints</string>
     <string name="store">Store</string>
     <string name="help">Help</string>
@@ -67,7 +66,7 @@
     <string name="perm_denied">To use this feature please grant storage permissions to link from the settings.</string>
 
     <!-- string values for get hints -->
-    <string name="freeHintsDes">Complete offers to get hints</string>
+    <string name="click_ad_hints_des">Click on the ad to get hints</string>
     <string name="shareHintsDes">Share this app to get hints</string>
     <string name="videoHintsDes">View a video to get hints</string>
 

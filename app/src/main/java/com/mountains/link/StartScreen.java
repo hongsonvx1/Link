@@ -1,12 +1,5 @@
 package com.mountains.link;
 
-import java.util.Random;
-
-import com.mountains.link.utils.DataHandler;
-import com.mountains.link.utils.ParticleAcessor;
-import com.mountains.link.utils.PrefClass;
-import com.vungle.publisher.VunglePub;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +10,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.mountains.link.utils.DataHandler;
+import com.mountains.link.utils.ParticleAcessor;
+import com.mountains.link.utils.PrefClass;
+
+import java.util.Random;
+
 import aurelienribon.tweenengine.Timeline;
 import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenManager;
@@ -31,9 +31,7 @@ public class StartScreen extends Activity implements OnClickListener {
 
 	private LinearLayout ll1, ll2, ll3, ll4, llmain;
 
-	private VunglePub vunglePub = VunglePub.getInstance();
 	private Random rand = new Random();
-	private String appId = "";
 
 	private int[] draw = new int[] { R.drawable.pressed_roundrect_five, R.drawable.pressed_roundrect_six, R.drawable.pressed_roundrect_seven,
 			R.drawable.pressed_roundrect_eight, R.drawable.pressed_roundrect_nine, R.drawable.pressed_roundrect_ten, R.drawable.pressed_roundrect_eleven,
@@ -44,9 +42,6 @@ public class StartScreen extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.startscreen);
 		getScreenDimen();
-
-		appId = getResources().getString(R.string.appId);
-		vunglePub.init(this, appId);
 
 		PrefClass prefclass = new PrefClass(context);
 
@@ -157,17 +152,5 @@ public class StartScreen extends Activity implements OnClickListener {
 			startActivity(new Intent(context, GetHints.class));
 			break;
 		}
-	}
-
-	@Override
-	protected void onPause() {
-		super.onPause();
-		vunglePub.onPause();
-	}
-
-	@Override
-	protected void onResume() {
-		super.onResume();
-		vunglePub.onResume();
 	}
 }

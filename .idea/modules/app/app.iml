@@ -91,10 +91,8 @@
     <orderEntry type="library" name="Gradle: ./app/libs/dagger-1.2.2.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/javax.inject-1.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/nineoldandroids-2.4.0.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/tapjoyconnectlibrary.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/tween-engine-api-sources.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./app/libs/tween-engine-api.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./app/libs/vungle-publisher-adaptive-id-3.3.2.jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0@jar" level="project" />

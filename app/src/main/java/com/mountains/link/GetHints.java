@@ -27,10 +27,6 @@ import com.google.android.gms.ads.rewarded.RewardedAdCallback;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import com.mountains.link.utils.DataHandler;
 import com.mountains.link.utils.PrefClass;
-import com.tapjoy.TapjoyConnect;
-import com.tapjoy.TapjoySpendPointsNotifier;
-
-import java.util.Hashtable;
 
 public class GetHints extends Activity implements OnClickListener {
 
