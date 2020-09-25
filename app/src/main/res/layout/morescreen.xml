@@ -64,6 +64,28 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/heading_text_size"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_more_game"
+            android:layout_width="@dimen/pack_width"
+            android:layout_height="@dimen/pack_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rounrect_fourteen"
+            android:text="@string/more_game"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/heading_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_share"
+            android:layout_width="@dimen/pack_width"
+            android:layout_height="@dimen/pack_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rounrect_nine"
+            android:text="@string/share"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/heading_text_size"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>

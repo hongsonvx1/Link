@@ -85,5 +85,7 @@
     <string name="click_to_ad_receive_hints">Please click on the ad to receive 5 hints</string>
     <string name="thanks_for_sharing">Thanks for sharing.</string>
     <string name="try_sharing_tomorrow">Thanks for sharing.But only 1 share is allowed per day to get hints. Try sharing tomorrow</string>
+    <string name="more_game">More game</string>
+    <string name="share">Share</string>
 
 </resources>
