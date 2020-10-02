@@ -45,6 +45,8 @@ public class MoreScreen extends Activity implements OnClickListener {
         bhelp.setTypeface(DataHandler.getTypeface(context));
         bsound.setTypeface(DataHandler.getTypeface(context));
         btags.setTypeface(DataHandler.getTypeface(context));
+        buttonMoreGame.setTypeface(DataHandler.getTypeface(context));
+        buttonShare.setTypeface(DataHandler.getTypeface(context));
 
         bhelp.setOnClickListener(this);
         bsound.setOnClickListener(this);
